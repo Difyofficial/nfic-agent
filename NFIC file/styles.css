@@ -3,10 +3,9 @@ body {
     padding: 0;
     overflow-x: hidden;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #fafafa;
     color: #333;
-    
 }
 
 /* Nav section */
@@ -21,6 +20,13 @@ body {
 
 .logo {
     height: 53px;
+    margin-bottom: 26px;
+}
+
+.logo2 {
+    height: 93px;
+    margin-top: 20px;
+    margin-right: 40px;
 }
 
 .left {
@@ -77,8 +83,8 @@ body {
 /* about sec */
 .about-sec {
     display: block;
-    margin: 15px auto;
-    max-width: 70%;
+    margin: 10px auto;
+    max-width: 75%;
     background-color: aliceblue;
     margin-top: 25px;
     border-radius: 7px;
@@ -86,7 +92,7 @@ body {
 }
 .hero-text {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 10px;
 }
 .hero-p {
@@ -100,7 +106,7 @@ body {
 }
 
 li {
-    margin: 7px;
+    margin: 9px;
 }
 
 .about-p2 {
@@ -126,8 +132,8 @@ li {
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-    width: 365px;
-    height: 280px;
+    width: 410px;
+    height: 270px;
     overflow: hidden;
     object-fit: fill;
     object-position: center;
@@ -148,7 +154,7 @@ li {
     text-decoration: none;
     transition: 0.2s ease-in;
     text-align: center;
-    margin: 15px 0;
+    margin-bottom: 30px;
 }
 
 .learn-more-btn:hover {
@@ -214,12 +220,17 @@ label {
 input[type="text"],
 input[type="tel"],
 input[type="email"],
+#dropdown,
 textarea {
     width: calc(100% - 20px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+#dropdown {
+    font-size: 0.9rem;
 }
 
 textarea {
@@ -424,6 +435,17 @@ button[type="submit"]:hover {
 }
 @media (max-width: 1024px) {
     /* header section */
+.logo {
+    height: 45px;
+    margin-top: 30px;
+}
+
+.logo2 {
+    height: 75px;
+    margin-bottom: 8px;
+    margin-right: 30px;
+}
+
 .header-container {
     height: 90vh;
 }
@@ -449,7 +471,30 @@ button[type="submit"]:hover {
 }
 
 }
+
 @media (max-width: 853px) {
+
+    .top-nav {
+    height: 7vh;
+}
+
+.logo {
+    margin-top: 15px;
+}
+
+.left {
+    margin-left: 27px;
+}
+
+.right {
+    margin-right: 30px;
+}
+
+.register-button {
+    padding: 5px 37px;
+    font-size: 0.9em;
+}
+
     /* header section */
 .header-container {
     height: 40vh;
@@ -465,7 +510,7 @@ button[type="submit"]:hover {
 @media (max-width: 430px) {
     /* header section */
 .header-container {
-    height: 23vh;
+    height: 29vh;
 }
 
 .extra-imgCon {
@@ -484,6 +529,13 @@ button[type="submit"]:hover {
 
 .logo {
     height: 30px;
+    margin-top: 30px;
+}
+
+.logo2 {
+    height: 60px;
+    margin-bottom: 8px;
+    margin-right: 80px;
 }
 
 .left {
@@ -509,7 +561,7 @@ button[type="submit"]:hover {
     border-radius: 7px;
 }
 .hero-text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .hero-p {
     font-size: 0.9rem;
@@ -529,10 +581,43 @@ button[type="submit"]:hover {
     border: 4px solid #006400;
     border-radius: 8px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-    width: 88%;
-    height: 100%;
+    width: 82%;
+    height: 95%;
     overflow: hidden;
     object-fit: cover;
+}
+
+label {
+    font-size: 0.9rem;
+}
+
+button[type="submit"] {
+    padding: 7px 13px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.form-container h1 {
+    font-size: 1.6rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    height: 37px;
+}
+
+textarea {
+    height: 70px;
+}
+
+#dropdown {
+    font-size: 0.8rem;
+}
+
+li {
+    margin-right: 15px;
 }
 
 }
